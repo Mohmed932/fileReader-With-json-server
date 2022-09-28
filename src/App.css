@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: droid arabic kufi, Arial;
+}
+:root {
+  --background-color: #000;
+  --color-text: #fff;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.left,
+.right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.line {
+  position: fixed;
+  top: 10vh;
+  left: auto;
+  width: 5px;
+  height: 80vh;
+  border-radius: 20px;
+  background-color: #000;
+}

@@ -1,0 +1,36 @@
+.Allinputs {
+  width: 60%;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+.forms {
+  padding: 10px;
+}
+.Allinputs input {
+  padding: 10px;
+  width: 80%;
+}
+.Allinputs h4 {
+  padding: 10px 0;
+}
+.Description {
+  min-height: 10vh;
+  min-width: 23vw;
+  padding: 10px;
+}
+.after {
+  margin-top: 20px;
+}
+.forms button {
+  padding: 10px;
+  font-size: 20px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.upload {
+  padding: 10px;
+  border: 4px dashed #000;
+  cursor: pointer;
+}
